@@ -1,0 +1,30 @@
+body {
+    background-color: gray;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+td, th {
+    padding: 5px;
+}
+
+thead > tr {
+    background-color: purple;
+}
+
+tbody {
+    background-color: rgb(180, 150, 113);
+}
+
+table {
+    border-collapse: collapse;
+    margin-inline: auto;
+}
+
+.power-Level {
+    text-align: center;
+}
+
+input, select {
+    font-size: 1.2rem;
+}

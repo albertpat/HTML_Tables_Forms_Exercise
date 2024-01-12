@@ -4,10 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Tables and Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main>
       <!-- Complete the Exercises HERE -->
+      <table>
+        <thead>
+          <tr>
+            <th>drink</th>
+            <th>total servings</th>
+            <th>serving size</th>
+            <th>calories per serving</th>
+            <th>carbs per serving</th>
+            <th>suagr per serving</th>
+            <th>sodium per serving</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Coca Cola</th>
+            <th>12 fl oz</th>
+            <th>12 fl oz</th>
+            <th>140</th>
+            <th>39g</th>
+            <th>39g</th>
+            <th>45mg</th>
+          </tr>
+          <tr>
+            <th>Pepsi</th>
+            <th>12 fl oz</th>
+            <th>12 fl oz</th>
+            <th>250</th>
+            <th>69g</th>
+            <th>69g</th>
+            <th>55mg</th>
+          </tr>
+          <tr>
+            <th>Coca Cola Zero</th>
+            <th>12 fl oz</th>
+            <th>12 fl oz</th>
+            <th>0</th>
+            <th>0g</th>
+            <th>0g</th>
+            <th>40mg</th>
+          </tr>
+          <tr>
+            <th>Dr. Pepper</th>
+            <th>12 fl oz</th>
+            <th>12 fl oz</th>
+            <th>150</th>
+            <th>48g</th>
+            <th>48g</th>
+            <th>37mg</th>
+          </tr>
+          <tr>
+            <th>Mountain Dew</th>
+            <th>12 fl oz</th>
+            <th>12 fl oz</th>
+            <th>110</th>
+            <th>29g</th>
+            <th>29g</th>
+            <th>35mg</th>
+          </tr>
+        </tbody>
+      </table>
+      <form>
+        <div>
+          <label for="drinkName">drink</label>
+          <input type="text" name="drinkName" id="drinkName">
+        </div>
+        <div>
+          <label for="totalServing">total servings</label>
+          <input type="text" name="totalServing" id="totalServing">
+        </div>
+        <div>
+          <label for="servingSize">serving size</label>
+          <input type="text" name="servingSize" id="servingSize">
+        </div>
+        <div>
+          <label for="calories">calories per serving</label>
+          <input type="text" name="calories" id="calories">
+        </div>
+        <div>
+          <label for="carbs">carbs per serving</label>
+          <input type="text" name="carbs" id="carbs">
+        </div>
+        <div>
+          <label for="sugar">sugars per serving</label>
+          <input type="text" name="suagr" id="sugar">
+        </div>
+        <div>
+          <label for="sodium">sodium per serving
+          </label>
+          <input type="text" name="sodium" id="sodium">
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </main>
   </body>
 </html>
